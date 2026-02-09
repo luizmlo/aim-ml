@@ -13,6 +13,26 @@ A desktop application for training and deploying neural networks that predict sc
 - **Train** — Multiple model architectures (CNN, RNN, LSTM, GRU, Vision Transformer) with dynamic sizing
 - **Test** — Live inference with real-time mouse control and optional failsafe
 
+## Screenshots
+
+**Recording** — Select a window and capture frames
+
+![Recording](static/feature_main_recording_view_and_highlight_capture_from_background.png)
+
+**Labeling** — Annotate target coordinates on each frame
+
+![Labeling](static/feature_main_labelling_view.png)
+
+**Training** — Configure architecture, size, and monitor progress
+
+![Model Selection](static/feature_model_selection_and_size_estimate.png)
+![Training Progress](static/feature_training_eta_progress.png)
+
+**Testing** — Load a model and run live prediction
+
+![Model Info](static/feature_model_info.png)
+![Live Preview](static/feature_live_preview.png)
+
 ## Architecture
 
 The app uses a modular pipeline:
