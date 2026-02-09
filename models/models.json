@@ -1,0 +1,40 @@
+{
+  "model_maceio1": {
+    "name": "model_maceio1",
+    "session_path": "datasets/maceio",
+    "created_date": "2026-02-04T21:24:50.307801",
+    "model_config": {
+      "architecture_type": "CNN_RNN",
+      "architecture_size": "medium",
+      "input_resolution": [256, 144],
+      "num_epochs": 20,
+      "batch_size": 16,
+      "learning_rate": 0.001
+    },
+    "training_info": {
+      "training_time_minutes": 2.96,
+      "final_loss": 0.009206,
+      "dataset_size": 410
+    },
+    "file_path": "models/model_maceio1.pth"
+  },
+  "new_big_cnnlstm_med": {
+    "name": "new_big_cnnlstm_med",
+    "session_path": "datasets/tester_01",
+    "created_date": "2025-09-22T16:35:53.455156",
+    "model_config": {
+      "architecture_type": "TRANSFORMER",
+      "architecture_size": "small",
+      "input_resolution": [256, 144],
+      "num_epochs": 20,
+      "batch_size": 16,
+      "learning_rate": 0.001
+    },
+    "training_info": {
+      "training_time_minutes": 1.58,
+      "final_loss": 0.0758,
+      "dataset_size": 238
+    },
+    "file_path": "models/new_big_cnnlstm_med.pth"
+  }
+}

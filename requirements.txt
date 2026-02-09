@@ -1,0 +1,15 @@
+# Core ML & Vision
+torch>=2.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+pandas>=2.0.0
+Pillow>=10.0.0
+
+# Screen capture & input
+mss>=9.0.0
+pynput>=1.7.0
+pydirectinput>=1.0.4
+
+# Windows (optional, for window selection)
+pywin32>=306; sys_platform == 'win32'
+psutil>=5.9.0
